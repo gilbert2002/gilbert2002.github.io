@@ -1,10 +1,10 @@
 var ajaxCall = (clientId, clientSecret, APIUrl, authUrl, inputChat) => {
 
-  //const APIUrl = "https://azure-openai-serv-i057149.cfapps.eu12.hana.ondemand.com/api/v1/completions";
+  //const APIUrl = "https://xxx.cfapps.eu12.hana.ondemand.com/api/v1/completions";
 
-  //const clientId = "sb-bd146afc-968c-47ea-b442-74bdfaf9500e!b224249|azure-openai-service-i057149-xs!b70230";
-  //const clientSecret = "fd0a9aab-0e95-483c-b794-47ddc3dc9cfc$aYgedp9mKUOKdIq7GsXOmXj3Q84mV5TRAmpZ_vbQfzc=";
-  //const authUrl = "https://demo19081.authentication.eu12.hana.ondemand.com/oauth/token";
+  //const clientId = "sb-xxx";
+  //const clientSecret = "_vbQfzc=";
+  //const authUrl = "https://xxx.authentication.eu12.hana.ondemand.com/oauth/token";
 
   var accessToken = "";
   $.ajax({
